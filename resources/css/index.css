@@ -1,7 +1,13 @@
 body{
     background-color:tomato;
+    text-align:center;
 }
 
 h1{
     text-align:center;
+}
+
+#comic{
+    width: 400px;
+    height:auto;
 }
