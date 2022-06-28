@@ -12,6 +12,9 @@ thead{
     color:hotpink;
     font-weight:bold;
 }
+td{
+    text-align: left;
+}
 
 h1{
     color:midnightblue;
