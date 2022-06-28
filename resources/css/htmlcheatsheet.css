@@ -22,3 +22,8 @@ h1{
 h2{
     color:darkblue;
 }
+
+.code{
+    font-family:monospace;
+    background-color:antiquewhite;
+}
