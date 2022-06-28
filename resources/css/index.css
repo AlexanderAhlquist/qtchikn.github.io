@@ -1,3 +1,19 @@
+.breadcrumb > li {
+    display: inline;
+  }
+  
+.breadcrumb li+li::before {
+      padding: 10px;
+    content: "+"
+  }
+  
+.breadcrumb a {
+    text-decoration: none;
+  }
+  
+.breadcrumb a:hover {
+    color: red;
+}
 .top{
     background-color:tomato;
     text-align:center;
@@ -11,21 +27,4 @@ h1{
 #comic{
     width: 500px;
     height:auto;
-}
-
-.breadcrumb > li {
-    display: inline;
-  }
-  
-  .breadcrumb li+li::before {
-      padding: 10px;
-    content: "+"
-  }
-  
-  .breadcrumb a {
-    text-decoration: none;
-  }
-  
-  .breadcrumb a:hover {
-    color: red;
 }
