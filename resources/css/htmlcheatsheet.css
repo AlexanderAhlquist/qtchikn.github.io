@@ -5,7 +5,10 @@ body{
     align-items: center;
 }
 table{
-    border:1px black; 
+    border:3px solid black; 
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
 }
 thead{
     background-color:deepskyblue;
